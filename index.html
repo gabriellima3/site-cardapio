@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/fontawesome.css" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <section class="header">
@@ -16,11 +16,98 @@
           <a class="navbar-brand" href="#">
             <img src="./images/logo.png" width="160" class="img-logo" />
           </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+          >
+            <span class="navbar-toggler-icon">
+              <i class="fas fa-bars"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="nav-item">
+                <a href="#reserve" class="nav-link">
+                  <strong>Reservas</strong>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link"
+                  ><strong>Serviços</strong></a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#menu" class="nav-link"><strong>Cardápio</strong></a>
+              </li>
+              <li class="nav-item">
+                <a href="#depositions" class="nav-link"
+                  ><strong>Depoimentos</strong></a
+                >
+              </li>
+            </ul>
+            <a class="btn btn-white btn-icon"
+              >Meu carrinho
+              <span class="icon">
+                <i class="fa fa-shopping-bag"></i>
+              </span>
+            </a>
+          </div>
         </nav>
       </div>
     </section>
 
-    <section class="banner"></section>
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="d-flex text-banner">
+              <h1>
+                <strong
+                  >Escolha sua comida
+                  <b class="color-primary">favorita</b></strong
+                >
+              </h1>
+              <p>
+                Aproveite nosso cardápio! Escolha o que desejar e receba em sua
+                casa de forma rápida e segura.
+              </p>
+              <div>
+                <a class="btn btn-yellow mt-4 mr-3"> Ver cardápio </a>
+                <a href="#" class="btn btn-white btn-icon-left mt-4">
+                  <span class="icon-left"><i class="fa fa-phone"></i> </span>
+                  (18) 99606-6622
+                </a>
+              </div>
+            </div>
+            <a class="btn btn-sm btn-white btn-social mt-4 mr-3">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a class="btn btn-sm btn-white btn-social mt-4 mr-3">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="btn btn-sm btn-white btn-social mt-4 mr-3">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+          <div class="col-6">
+            <div class="card-banner"></div>
+            <div class="d-flex img-banner">
+              <img src="./images/burguer.png" />
+            </div>
+            <div class="card card-case">
+              "Entrega rápida e funcionários simpáticos"
+              <br />A comida chegou quente e<br />
+              muito saborosa!"
+              <span class="card-case-name">
+                <strong>Thiago Lopes</strong>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="services"></section>
 
